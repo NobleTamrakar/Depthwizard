@@ -7,6 +7,10 @@ backend/.venv/
 .pytest_cache/
 .ruff_cache/
 
+.venv
+
+*.zip
+
 # Node / Next.js
 node_modules/
 frontend/.next/
@@ -28,6 +32,12 @@ model/**/checkpoints/
 data/reference/
 data/uploads/
 data/outputs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Training run logs/checkpoints
+training/runs/
 
 # Env
 .env
